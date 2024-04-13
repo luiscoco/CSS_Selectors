@@ -138,8 +138,30 @@ The universal selector (*) selects all HTML elements on the page.
 </html>
 ```
 
-## 5. 
+## 5. The CSS Grouping Selector
 
+The grouping selector selects all the HTML elements with the same style definitions.
+
+Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    h1, h2, p {
+      text-align: center;
+      color: red;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <h2>Smaller heading!</h2>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+```
 
 
 
