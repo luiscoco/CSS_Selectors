@@ -112,6 +112,32 @@ In this example the ```<p>``` element will be styled according to class="center"
 </html>
 ```
 
-## 4. 
+## 4. The CSS Universal Selector
+
+The universal selector (*) selects all HTML elements on the page.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    * {
+      text-align: center;
+      color: blue;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <p>Every element on the page will be affected by the style.</p>
+    <p id="para1">Me too!</p>
+    <p>And me!</p>
+  </body>
+</html>
+```
+
+## 5. 
+
+
 
 
