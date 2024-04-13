@@ -1,5 +1,7 @@
 # CSS: Selectors
 
+![image](https://github.com/luiscoco/CSS_Selectors/assets/32194879/88bf930a-ff76-415f-ab42-daca885b6972)
+
 ## 1. The CSS element Selector
 
 Here, all ```<p>``` elements on the page will be center-aligned, with a red text color: 
